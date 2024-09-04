@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Shantell Sans", cursive;
+    background-image: url(img/blue.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#btn{
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 6px;
+    color: rgb(0, 136, 255);
+    cursor: pointer;
+
+}
+.msg1{
+    font-size: 16.5px;
+    padding-top: 20px;
+    margin-left: 4px;
+    color: white;
+}
+.msg2{
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    margin-left: 2.7rem;
+}
+#shape1{
+    background-color:rgba(239, 239, 239, 0.753);
+    height: 15vh;
+    width: 8vw;
+    z-index: -1;
+    margin-top: 14%;
+    position: fixed;
+    margin-left: 33.5%;  
+    border-radius: 100%; 
+}
+#shape2{
+    background-color:rgba(239, 239, 239, 0.753);
+    height: 15vh;
+    width: 8vw;
+    z-index: -1;
+    position: fixed;
+    margin-left: 55%;  
+    border-radius: 100%; 
+    margin-top: 21%;
+}
+#container{
+    max-width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.184);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    margin-left: 39%;
+    margin-top: 16%;
+    border-radius: 10px;
+    position: absolute;
+    padding: 40px;
+    color: white;
+} 
+
+#search{
+    border: none; 
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+}
+#icon{
+    margin-left: 5rem;
+    padding: 3px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.temp-container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    margin-left: 7px;
+}
